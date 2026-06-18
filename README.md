@@ -1,36 +1,266 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 InterviewForge
 
-## Getting Started
+**AI-Powered Mock Interview Platform for Students, Freshers, and Aspiring Software Engineers**
 
-First, run the development server:
+InterviewForge is a full-stack AI interview preparation platform that helps users practice technical and behavioral interviews, receive personalized feedback, track readiness scores, and prepare for dream companies through realistic AI-driven interview simulations.
+
+Built with modern web technologies and powered by AI, InterviewForge provides a personalized interview experience that adapts to a user's resume, skills, and career goals.
+
+---
+
+## ✨ Features
+
+### 🤖 AI-Powered Mock Interviews
+
+* Technical Interviews
+* Behavioral Interviews
+* Frontend, Backend, and System Design roles
+* Dynamic follow-up questioning
+* Realistic interview experience
+
+### 📄 Resume-Based Interviews
+
+* Upload your resume
+* AI extracts skills, projects, and experience
+* Generates personalized interview questions
+* Asks project-specific technical questions
+
+### 📊 Career Command Center
+
+* Interview Readiness Score
+* Skill Breakdown Analytics
+* Performance Tracking
+* Confidence Metrics
+* Progress Visualization
+
+### 📈 Detailed Feedback Reports
+
+* Technical Score
+* Communication Score
+* Structure Score
+* Overall Performance Rating
+* AI-generated recommendations
+
+### 👤 User Profiles
+
+* Profile Management
+* Career Goals
+* Dream Companies
+* Interview History
+* Performance Insights
+
+### 🔐 Secure Authentication
+
+* User Sign Up / Login
+* Session Management
+* Protected Routes
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+
+* Next.js 16
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+
+### Backend
+
+* Next.js API Routes
+* Prisma ORM
+* PostgreSQL
+
+### Database & Auth
+
+* Supabase
+* PostgreSQL
+
+### AI
+
+* Groq API
+* Llama Models
+
+### Storage
+
+* Supabase Storage
+
+---
+
+## 📸 Screenshots
+
+### Landing Page
+
+Add screenshot here
+
+### Dashboard
+
+Add screenshot here
+
+### Resume-Based Interview
+
+Add screenshot here
+
+### Career Command Center
+
+Add screenshot here
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/yourusername/interviewforge.git
+cd interviewforge
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file and add:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+
+DATABASE_URL=
+DIRECT_URL=
+
+GROQ_API_KEY=
+```
+
+### 4. Generate Prisma Client
+
+```bash
+npx prisma generate
+```
+
+### 5. Run Database Migrations
+
+```bash
+npx prisma db push
+```
+
+### 6. Start Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 How Resume-Based Interviews Work
 
-To learn more about Next.js, take a look at the following resources:
+```text
+Upload Resume
+      ↓
+Extract Resume Content
+      ↓
+AI Identifies Skills & Projects
+      ↓
+Personalized Interview Generation
+      ↓
+Project-Specific Questions
+      ↓
+Feedback & Analytics
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Example:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Instead of asking:
 
-## Deploy on Vercel
+"Explain React."
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+InterviewForge can ask:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+"Why did you choose Next.js and TypeScript while building InterviewForge, and what tradeoffs did you consider?"
+
+---
+
+## 📊 Project Architecture
+
+```text
+User
+ ↓
+Next.js Frontend
+ ↓
+API Routes
+ ↓
+Groq AI
+ ↓
+Prisma ORM
+ ↓
+PostgreSQL (Supabase)
+```
+
+---
+
+## 🎯 Problem Solved
+
+Many students prepare for interviews using static question lists and generic AI chatbots.
+
+InterviewForge provides:
+
+* Personalized interview experiences
+* Resume-aware questioning
+* Real-time feedback
+* Readiness analytics
+* Progress tracking
+
+This helps candidates prepare more effectively for internships and full-time software engineering roles.
+
+---
+
+## 🚀 Future Enhancements
+
+* Voice-based Interviews
+* Company-Specific Interview Modes
+* AI Career Coach
+* PDF Report Generation
+* Interview Replay System
+* Team/College Leaderboards
+* Mock HR Simulations
+
+---
+
+## 👨‍💻 Author
+
+### Anubhavi Srivastava
+
+Computer Science Student | Full Stack Developer | AI Enthusiast
+
+**Tech Interests**
+
+* Software Engineering
+* Artificial Intelligence
+* Machine Learning
+* Full Stack Development
+* System Design
+
+GitHub: https://github.com/srivastv1997-beep
+
+LinkedIn: Add your LinkedIn URL
+
+---
+
+## ⭐ Support
+
+If you found this project interesting, consider giving it a star ⭐ on GitHub.
+
+It motivates continued development and helps more students discover InterviewForge.
