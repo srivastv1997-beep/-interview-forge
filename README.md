@@ -253,9 +253,7 @@ Computer Science Student | Full Stack Developer | AI Enthusiast
 * Full Stack Development
 * System Design
 
-GitHub: https://github.com/srivastv1997-beep
 
-LinkedIn: Add your LinkedIn URL
 
 ---
 
